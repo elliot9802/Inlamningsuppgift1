@@ -25,7 +25,7 @@
         //Gör en for loop som skapar 30 stycken t shirts och ger dom random val från listorna jag gjorde ovanför
         for (int i = 0; i < 30; i++)
         {
-            int snittbetyg = random.Next(0, 10);
+            int snittbetyg = random.Next(0, 11);
             int pris = random.Next(100, 499);
             int getRdnMotiv = random.Next(Motiv.Count);
             int getRdnStrl = random.Next(Storlek.Count);
@@ -78,7 +78,7 @@ public class Mugg
         //Gör en for loop som skapar 30 stycken muggar och ger dom random val från listorna jag gjorde ovanför
         for (int i = 0; i < 30; i++)
         {
-            int snittbetyg = random.Next(0, 10);
+            int snittbetyg = random.Next(0, 11);
             int pris = random.Next(100, 499);
             int getRdnMotiv = random.Next(Motiv.Count);
             int getRdnTyp = random.Next(Typ.Count);
